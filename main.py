@@ -12,7 +12,7 @@ llm = OpenAI(openai_api_key="xxxx")
 llm.predict("What would be a good company name for a company that makes colorful socks?")
 
 
-chat = ChatOpenAI(openai_api_key="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",temperature=0)
+chat = ChatOpenAI(openai_api_key="xxxx",temperature=0)
 chat.predict_messages([HumanMessage(content="Translate this sentence from English to French. I love programming.")])
 
 human_message = "Translate from English to Frech: I love playing Tennis"
