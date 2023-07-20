@@ -7,7 +7,7 @@ from langchain.schema import (
     SystemMessage
 )
 
-llm = OpenAI(openai_api_key="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")
+llm = OpenAI(openai_api_key="xxxx")
 
 llm.predict("What would be a good company name for a company that makes colorful socks?")
 
