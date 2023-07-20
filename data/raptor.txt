@@ -1,0 +1,9 @@
+
+Raptor API as follow
+
+xpath mapping
+- launchpad window = /form[@windowid=launchpad]
+- workspace manager = /form/div/div/workspace
+
+code generator mapping
+- open launchpad windows = launchpad().openWindow()
